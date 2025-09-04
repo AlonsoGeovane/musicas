@@ -38,6 +38,7 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  
 }
 
 .cartao {
@@ -85,7 +86,14 @@ body {
   border: 2px solid #555;
 }
 
-button {
+.cartao .iron {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #555;
+}
+
+.spotify {
   cursor: pointer;
   background-color: green;
   display: flex;
@@ -101,4 +109,11 @@ button {
 
 a {
   text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--texto);
+  padding: 1rem;
 }
